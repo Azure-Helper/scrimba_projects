@@ -1,0 +1,60 @@
+body {
+  margin-top: 0;
+  text-align: center;
+  background-color: #98b9f2;
+  font-family: "Mina", sans-serif;
+}
+
+.card {
+  display: block;
+  background-color: #918ef4;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 130px auto;
+}
+
+#count {
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #141b41;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 50px;
+  color: #141b41;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #141b41;
+  font-weight: 900;
+}
+
+button {
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #306bac;
+  font-size: larger;
+  font-weight: 600;
+}
+
+#save-btn {
+  margin-top: 20px;
+}
+
+#reset-btn {
+  margin-top: 20px;
+}
