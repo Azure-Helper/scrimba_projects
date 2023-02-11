@@ -1,0 +1,122 @@
+body {
+  --bg-black-light: #1c1c1c;
+  --bg-violet: #6943ff;
+  --bg-violet-light: #b295ff;
+  --bg-white: #ffffff;
+  --bg-grey-light: #f4f4f4;
+  --text-white: #ffffff;
+  --text-purple: #5a537b;
+  --text-grey-white: #353535;
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-black-light);
+  color: var(--text-white);
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.dark {
+  --bg-grey-light: #1f2937;
+  --text-purple: #ccc1ff;
+  --text-grey-white: #ffffff;
+  --bg-white: #273549;
+}
+
+.container-top {
+  width: 100%;
+  max-width: 600px;
+  background-color: var(--bg-violet);
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+#input-num {
+  background-color: var(--bg-violet);
+  width: 120px;
+  height: 80px;
+  border: 2px solid var(--bg-violet-light);
+  border-radius: 5px;
+  outline: none;
+  font-size: 50px;
+  font-weight: 800;
+  color: var(--text-white);
+  text-align: center;
+}
+
+::placeholder {
+  color: var(--text-white);
+  opacity: 1;
+}
+
+button {
+  margin: 25px auto;
+  width: 120px;
+  height: 40px;
+  background-color: var(--text-white);
+  border: 2px solid var(--text-white);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container-bottom {
+  width: 100%;
+  max-width: 600px;
+  background-color: var(--bg-grey-light);
+  margin-bottom: 25px;
+}
+
+.box-value {
+  width: 100%;
+  max-width: 500px;
+  height: 100px;
+  background-color: var(--bg-white);
+  margin: auto;
+}
+
+@media (max-width: 484px) {
+  .box-value {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+#box-length {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#box-volume {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#box-mass {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: var(--text-purple);
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+p {
+  color: var(--text-grey-white);
+  font-size: 14px;
+  font-weight: 400;
+}
