@@ -9,3 +9,4 @@
 5. Leads Tracker `Chrome Extension`
 6. [Unit Converter](https://azure-helper.github.io/scrimba_projects/unit_converter/)
 7. [Oldagram](https://azure-helper.github.io/scrimba_projects/oldagram/)
+8. [Meme Picker](https://azure-helper.github.io/scrimba_projects/meme_picker/)
