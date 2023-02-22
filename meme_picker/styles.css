@@ -101,6 +101,10 @@ input[type="radio"] {
   cursor: pointer;
 }
 
+input[type="checkbox"] {
+  accent-color: #bd301d;
+}
+
 .gifs-check {
   display: flex;
   align-items: center;
