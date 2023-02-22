@@ -28,11 +28,22 @@ function renderPosts() {
 
 renderPosts();
 
+// Increment and Decrement like count
+const postCountArray = [];
+
 document.addEventListener("click", function (e) {
   if (e.target.dataset.heart) {
     let postCount = posts[e.target.dataset.heart];
-    likeCount[e.target.dataset.heart].textContent = `${
-      postCount.likes + 1
-    } likes`;
+    if (!postCountArray.includes(postCount.likes + 1)) {
+      postCountArray.push(postCount.likes + 1);
+      likeCount[e.target.dataset.heart].textContent = `${
+        postCount.likes + 1
+      } likes`;
+    } else {
+      postCountArray.splice(postCountArray.indexOf(postCount.likes + 1), 1);
+      likeCount[
+        e.target.dataset.heart
+      ].textContent = `${postCount.likes} likes`;
+    }
   }
 });
