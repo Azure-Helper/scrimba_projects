@@ -36,4 +36,6 @@ function threeAway() {
 function newGame() {
   scoreHome.textContent = 0;
   scoreAway.textContent = 0;
+  initHome = 0;
+  initAway = 0;
 }
